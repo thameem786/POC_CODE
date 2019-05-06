@@ -1,0 +1,34 @@
+To install es:
+tar -xzvf elasticsearch-6.7.0.tar.gz
+
+To start es ion startup:
+sudo systemctl start elasticsearch.service
+
+sudo systemctl stop elasticsearch.service
+
+
+ps -ef|grep elasticsearch
+
+
+
+copy db content to local path:
+1. go to program files ->mongodb->bin and type cmd and enter below command:
+    mongodump --host localhost:27017 --authenticationDatabase admin --username mongoadmin --password mongoadmin --out
+ ex:mongodump --host localhost:27017 --authenticationDatabase admin --username mongoadmin --password mongoadmin --out "D:\"
+
+copy local path content to mongodb:
+1. go to program files ->mongodb->bin and type cmd and enter below command:
+    mongorestore --host localhost:27017 --authenticationDatabase admin --username mongoadmin --password mongoadmin -—db <db_name> --verbose <path_to_dump_folder>
+  ex:mongorestore --host localhost:27017 --authenticationDatabase admin --username mongoadmin --password mongoadmin -—db 12041_quasar --verbose "C:\Users\thameem.sakkarai\Desktop\300000000000000000000002\12041_quasar"
+
+To check es is working:
+
+curl 'http://localhost:9200/?pretty'
+
+
+# To check error line number in python
+print('Error on line {}{}{}'.format(sys.exc_info()[-1].tb_lineno,type(e).__name__, ex))
+
+#to find print statements on linux files:
+
+ls |grep .py$|while read line;  do echo $line; cat -n $line |grep 'print'; done

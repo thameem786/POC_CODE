@@ -1,0 +1,10 @@
+Month End Vertex TAX JURICDICTION Activity
+Finance Team will send a list of customer and vendor updated tax jurisdiction 2-3 days before month end.
+On 1st of every month in non-business hours this list need to be updated in PQ1 using FF ID.
+Create 2 Incidents for customer with customer assignment group and for vendor with material master assignment group.
+Steps to update:
+T Code: MK02 > Fill Vendor No.
+> Check Mark Address > Enter > Update New Tax Jurisdiction
+Note: After updating all the tax jurisdiction for customer and vendor update the status to finance team and mentioned the customer and vendor no.
+in tickets and close them.
+Note: Z008 account group customer has tax jurisdiction filed suppressed, hence for these accounts mention to finance team on email reply after completing above activity

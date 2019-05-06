@@ -1,0 +1,35 @@
+root - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "C:/Thameem/POC_CODE/add_logging.py", line 7, in <module>
+    c = a / b
+ZeroDivisionError: division by zero
+2019-03-27 14:33:48,105-root - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "C:/Thameem/POC_CODE/add_logging.py", line 7, in <module>
+    c = a / b
+ZeroDivisionError: division by zero
+2019-03-27 14:35:48,988-root - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "C:/Thameem/POC_CODE/add_logging.py", line 7, in <module>
+    c = a / b
+ZeroDivisionError: division by zero
+2019-03-27 14:41:26,317-root - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "C:/Thameem/POC_CODE/add_logging.py", line 9, in <module>
+    c = a / b
+ZeroDivisionError: division by zero
+2019-03-27 14:42:00,201-root - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "C:/Thameem/POC_CODE/add_logging.py", line 9, in <module>
+    c = a / b
+ZeroDivisionError: division by zero
+2019-03-27 14:44:07,974-root - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "C:/Thameem/POC_CODE/add_logging.py", line 9, in <module>
+    c = a / b
+ZeroDivisionError: division by zero
+2019-03-27 14:44:36,731-root - INFO - 2.5
+2019-03-27 14:45:33,921-root - INFO - 5
+2019-03-27 14:45:33,921-root - INFO - 2.5
+2019-03-27 15:30:12,857-root - INFO - 5
+2019-03-27 15:30:12,858-root - INFO - 2.5

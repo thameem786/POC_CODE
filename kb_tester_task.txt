@@ -1,0 +1,9 @@
+1. Read excel file
+	Query       Summary        Details
+
+2. Call searchkb api and pass query
+
+3. Check if summary and details are matching with the row item
+
+4. Prepare an excel sheet with the following columns
+	Query ExpectedSummary ActualSummary ExpectedDetails ActualDetails IsSuccess
